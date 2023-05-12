@@ -33,7 +33,7 @@ with st.form(key='personal'):
     st.session_state['count'] = 0
 
     st.write("Select Events")
-    st.write('*All events are subject to a split in class of A & B depending on the number of entries and timings*')
+    st.write('*All events are subject to a split in class of A & B depending on the number of entries and timings | Truggy event might be held a common event if entry count is low*')
     st.write("Rs/: 1500 per event")
     ev1 = st.checkbox("1/10 Onroad (will be split into A / B depending on entry count and timings)")
     ev2 = st.checkbox("1/8 Nitro Buggy")
